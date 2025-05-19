@@ -1,36 +1,36 @@
-# Optimizing Retail Business Strategy through RFM-Based Customer Segmentation and Demographic Profiling
+# A Comprehensive Analysis to Maximaze Sales Performance and Minimize Curn In The Retail Business
 
 ## Overview
-Proyek ini bertujuan untuk mengoptimalkan strategi bisnis ritel dengan melakukan segmentasi pelanggan menggunakan analisis RFM (Recency, Frequency, Monetary) dan profil demografis. Analisis ini dilakukan pada dataset "Supermarket Customers" yang berisi data 2.240 pelanggan, mencakup riwayat pembelian, demografi, dan pola pengeluaran. Proyek ini memberikan wawasan tentang perilaku pelanggan, segmentasi, serta rekomendasi strategi pemasaran untuk meningkatkan pendapatan dan loyalitas pelanggan.
+This project aims to optimize retail business strategy by segmenting customers using RFM analysis (Recency, Frequency, Monetary) combined with demographic profiling. The project is based on the "Supermarket Customers" dataset, which contains data on 2,240 customers, including purchase history, demographics, and spending patterns. The project provides insights into customer behavior, segmentation, and strategic marketing recommendations to improve revenue and customer loyalty.
 
 ## Dataset
-Dataset `Supermarket_Customer_Cleaned.csv` berisi informasi tentang 2.240 pelanggan dengan 29 kolom yang dikelompokkan ke dalam kategori berikut:
-- **People**: Demografi pelanggan (usia, pendidikan, status pernikahan, pendapatan, komposisi keluarga, dll.)
-- **Products**: Pengeluaran untuk produk (anggur, buah, daging, ikan, permen, emas)
-- **Promotion**: Respons pelanggan terhadap kampanye pemasaran
-- **Place**: Saluran pembelian (web, katalog, toko) dan aktivitas online
-
-Setelah pembersihan data, dataset memiliki 2.202 pelanggan yang digunakan untuk analisis.
+The `Supermarket_Customer_Cleaned.csv` dataset includes 2,240 customer records with 29 columns, grouped into the following categories:
+- **People: Customer demographics (age, education, marital status, income, family composition, etc.)
+- **Products: Spending on product categories (wine, fruits, meat, fish, sweets, gold)
+- **Promotion: Customer responses to marketing campaigns
+- **Place: Purchase channels (web, catalog, store) and online activity
+  
+After data cleaning, the final dataset used for analysis contains 2,202 customers.
 
 ## Objectives
-- Mensegmentasi pelanggan ke dalam kategori High-Value, Medium-Value, dan Low-Value berdasarkan skor RFM.
-- Mengidentifikasi strategi retensi untuk pelanggan berisiko churn (segmen "At Risk").
-- Menganalisis pengaruh demografis (usia, pendidikan, komposisi keluarga) terhadap pola pengeluaran.
-- Memberikan rekomendasi untuk meningkatkan pendapatan melalui upselling, cross-selling, dan strategi pemasaran berbasis demografis.
-- Mengoptimalkan strategi produk dan pemasaran berdasarkan preferensi pelanggan.
+- Segment customers into High-Value, Medium-Value, and Low-Value groups using RFM scores
+- Identify retention strategies for customers at high risk of churn (At-Risk segment)
+- Analyze the influence of demographics (age, education, family structure) on spending behavior.
+- Provide marketing strategy recommendations to increase revenue through upselling, cross-selling, and demographic targeting.
+- Optimize product and promotion strategies based on customer preferences.
 
 ## Key Findings
-- **Segmentasi RFM**:
-  - High-Value: 43% (942 pelanggan), rata-rata pengeluaran $1,153.46.
-  - Medium-Value: 36% (801 pelanggan), rata-rata pengeluaran $278.52.
-  - Low-Value: 21% (459 pelanggan), dengan segmen "At Risk" (22%) berisiko churn.
-- **Pengaruh Demografis**:
-  - Pelanggan dengan pendidikan tinggi (PhD, Master) menghabiskan lebih banyak ($610–$678).
-  - Pelanggan tanpa anak/remaja menghabiskan lebih banyak ($1,419).
-  - Kelompok usia 36–45 tahun adalah target pasar utama.
-- **Distribusi Segmen**:
-  - High-Value dan Medium-Value mencakup 79% pelanggan.
-  - Segmen "At Risk" (22%) perlu perhatian untuk mencegah churn.
+- **RFM Segmentation**:
+  - High-Value: 43% (942 customers), average spending: $1,153.46
+  - Medium-Value: 36% (801 customers), average expenditures: $278.52
+  - Low-Value: 21% (459 customers); "At-Risk" segment accounts for 22%, with high churn risk
+- **Demographic Insights**:
+  - Customers with higher education (PhD, Master's) spend more ($610–$678)
+  - Customers without children/teenagers spend more (avg. $1,419)
+  - The 36–45 age group is the dominant and most profitable segment
+- **Segment Distribution**:
+  - High-value and Medium-Value customers account for 79% of the total
+  - The At-Risk segment (22%) requires targeted retention strategies
 
 ## Recommendations
 - **Retensi "At Risk"**: Luncurkan kampanye re-engagement (diskon, email personalisasi).
